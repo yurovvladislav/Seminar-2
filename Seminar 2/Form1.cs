@@ -5,6 +5,7 @@ namespace Seminar_2
         string login;
         string password;
         string per;
+        string per2;
         public Form1()
         {
             InitializeComponent();
