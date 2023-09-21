@@ -12,6 +12,7 @@ namespace Seminar_2
     {
         static void Write(string login, string password, string adress) 
         {
+            //запись в файл
             StreamWriter sw=new StreamWriter(adress);
             sw.Write(login+" "+password);
             sw.Close();
