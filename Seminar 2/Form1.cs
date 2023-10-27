@@ -6,9 +6,11 @@ namespace Seminar_2
         string password;
         string per;
         string per2;
+        bool flag;
         public Form1()
         {
             InitializeComponent();
+            flag = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -23,6 +25,12 @@ namespace Seminar_2
             per = textBox2.Text;
             //
             // label1.Visible = true;
+            if (flag)
+            {
+                Form3 f3 = new Form3();
+                f3.Show();
+                this.Hide();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -34,7 +42,7 @@ namespace Seminar_2
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }
