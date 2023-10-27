@@ -2,8 +2,8 @@
 
 public static class Reader
 {
-    public static bool IsUserExists(string path, string login, string password) {
-        string[] lines = File.ReadAllLines("test.txt");
+    public static bool IsUserExists(string login, string password, string adress) {
+        string[] lines = File.ReadAllLines(adress);
         foreach (string s in lines)
         {
             string[] data = s.Split(' ');
