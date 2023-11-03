@@ -26,8 +26,9 @@ namespace Seminar_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //
-            // label1.Visible = true;
+            //запрос на добавление данных
+            label1.Visible = true;
+
         }
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)

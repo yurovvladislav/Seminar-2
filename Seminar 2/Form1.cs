@@ -23,7 +23,7 @@ namespace Seminar_2
             login = textBox1.Text;
             password = textBox2.Text;
             per = textBox2.Text;
-            //
+            //запрос на получение данных
             // label1.Visible = true;
             if (flag)
             {

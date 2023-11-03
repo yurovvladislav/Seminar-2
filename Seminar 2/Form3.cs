@@ -87,7 +87,7 @@ namespace Seminar_2
         {
             text = textBox2.Text;
             //запрос на удаление в cats
-            panel2.Visible = false;
+            panel3.Visible = false;
             text = "";
             show();
             show2();

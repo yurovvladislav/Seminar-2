@@ -74,11 +74,11 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button2.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(160, 205);
+            this.button2.Location = new System.Drawing.Point(121, 211);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(157, 42);
+            this.button2.Size = new System.Drawing.Size(234, 42);
             this.button2.TabIndex = 18;
-            this.button2.Text = "Регистрация";
+            this.button2.Text = "Зарегистрироваться";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
